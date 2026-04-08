@@ -5,6 +5,7 @@ import Marksfromuser from "./MyComponents/Marksfromuser";
 import Evod from "./MyComponents/Evod";
 import Age from "./MyComponents/Age";
 import User from "./MyComponents/User";
+import Access from "./MyComponents/Access";
 function App() {
   return (
    <>
@@ -15,6 +16,7 @@ function App() {
     <Evod />
     <Age/>
     <User/>
+    <Access/>
    </>
   );
 }   
