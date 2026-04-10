@@ -6,6 +6,9 @@ import Evod from "./MyComponents/Evod";
 import Age from "./MyComponents/Age";
 import User from "./MyComponents/User";
 import Access from "./MyComponents/Access";
+import List from "./MyComponents/List";
+import "./App.css";
+import Result from "./MyComponents/Result";
 function App() {
   return (
    <>
@@ -17,6 +20,8 @@ function App() {
     <Age/>
     <User/>
     <Access/>
+    <List/>
+    <Result/>
    </>
   );
 }   
