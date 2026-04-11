@@ -1,7 +1,7 @@
 import { useState } from "react";
 function Result() {
-    const [Result, setResult] = useState( "");
-    let result = (Result >= 50) ? "pass" : "fail";
+    const [Result, setResult] = useState( " ");
+    let result=  (Result >= 50) ? "pass" : "fail";
     return (
         <>
             <h1>Enter Result </h1>

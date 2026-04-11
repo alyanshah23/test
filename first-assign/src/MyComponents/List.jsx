@@ -1,10 +1,10 @@
 function List() {
     const Listcontainer = [
-        { id: 1, name: "phirdge", price: "25000" ,color:"grey"},
-        { id: 2, name: "pakhho", price: "10000",color:"black" },
-        { id: 3, name: "winjhnow", price: "300",color:"white" },
+        { id: 1, name: "car", price: "25000" ,color:"grey"},
+        { id: 2, name: "car2", price: "10000",color:"black" },
+        { id: 3, name: "car3", price: "300",color:"white" },
     ]
-
+        
     return (
         <>
          < h1>Product List</h1 >
@@ -12,8 +12,8 @@ function List() {
         Listcontainer.map((list) => (
             <div key={list.id} className="productCard">
                 <h2 className="title">{list.name}</h2>
-                <p>Price: {list.price}</p>
-                <p>Color: {list.color}</p>
+                <h4 className="white">Price: {list.price}</h4>
+                <h4 className="white">Color: {list.color}</h4>
             </div>
         ))
     }
