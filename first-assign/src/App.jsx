@@ -8,13 +8,11 @@ import User from "./MyComponents/User";
 import Access from "./MyComponents/Access";
 import Result from "./MyComponents/Result";
 import Btn from "./MyComponents/Btn";
-
-// import List from "./MyComponents/List";
-// import "./App.css";
+import StudentsList from "./MyComponents/StudentsList"
 function App() {
   return (
    <>
-    <Header />
+    {/* <Header />
     <Clcom />
     <Student />
     <Marksfromuser />
@@ -23,8 +21,8 @@ function App() {
     <User/>
     <Access/>
     <Result/>
-    <Btn/>
-        {/* <List/> */}
+    <Btn/> */}
+    <StudentsList/>
    </>
   );
 }   
