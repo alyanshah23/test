@@ -3,8 +3,9 @@ function User() {
     const [usern, setusern] = useState("");
     let adminid = "Alyan";
     let isadmin = true;
+    let message =""
     if (usern === adminid && isadmin === true) {
-        alert("welcome admin");
+        message=("Welcome admin")
     }
 
     return (
@@ -13,6 +14,7 @@ function User() {
             <input type="text"
                 placeholder="enter User " value={usern} 
                 onChange={(e) => setusern(e.target.value)} />
+                <h1>{message}</h1>
 
         </>
     )

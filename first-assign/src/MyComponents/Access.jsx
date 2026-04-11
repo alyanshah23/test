@@ -3,12 +3,13 @@ function Access() {
     const [Accessn, setAccessn] = useState("");
     let adminid = "Alyan";
     let Admin2 = "Moderator";
+    let message = ""
     if (Accessn === adminid || Accessn === Admin2) {
        if(Accessn === adminid){
-         alert("welcome admin");
+          message=("access granted to Admin")
        }
        else{
-         alert("welcome moderator");
+         message=("access granted to moderator")
        }
     }
 
@@ -18,6 +19,7 @@ function Access() {
             <input type="text"
                 placeholder="enter Access " value={Accessn} 
                 onChange={(e) => setAccessn(e.target.value)} />
+                <h1>{message}</h1>
 
         </>
     )
