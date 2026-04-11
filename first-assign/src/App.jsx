@@ -9,7 +9,8 @@ import Access from "./MyComponents/Access";
 import Result from "./MyComponents/Result";
 import Btn from "./MyComponents/Btn";
 import StudentsList from "./MyComponents/StudentsList"
-import Products from "./MyComponents/Products"
+import Products from "./MyComponents/Products";
+import TxtChng from "./MyComponents/TxtChng";
 function App() {
   return (
    <>
@@ -25,6 +26,7 @@ function App() {
     <Btn/> */}
     <StudentsList/>
     <Products/>
+    <TxtChng/>
    </>
   );
 }   
