@@ -11,6 +11,8 @@ import Btn from "./MyComponents/Btn";
 import StudentsList from "./MyComponents/StudentsList"
 import Products from "./MyComponents/Products";
 import TxtChng from "./MyComponents/TxtChng";
+import Realtimettxt from "./MyComponents/Realtimetxt";
+import Msg from "./MyComponents/Msg";
 function App() {
   return (
    <>
@@ -27,6 +29,8 @@ function App() {
     <StudentsList/>
     <Products/>
     <TxtChng/>
+    <Realtimettxt/>
+    <Msg/>
    </>
   );
 }   
