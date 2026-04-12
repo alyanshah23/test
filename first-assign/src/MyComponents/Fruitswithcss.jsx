@@ -21,8 +21,8 @@ function Fruitswithcss(){
        <div className="set">
          {FruitsData.map((n)=>(
             <div className="card" key={n.id}>
-                <h3 className="cardheading">{n.Name}</h3 >
-                <p>{n.Price}</p>
+                <h3 className="cardheading">Name :{n.Name}</h3 >
+                <p>Price :{n.Price}</p>
 
             </div>
              ))}

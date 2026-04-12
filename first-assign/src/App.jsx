@@ -16,6 +16,7 @@ import Msg from "./MyComponents/Msg";
 import Loginpage from "./MyComponents/Loginpage";
 import Fruitswithcss from "./MyComponents/Fruitswithcss";
 import "./App.css"
+import Employee from "./MyComponents/Employee";
 function App() {
   return (
    <>
@@ -36,6 +37,7 @@ function App() {
     <Msg/>
     <Loginpage/> */}
     <Fruitswithcss/>
+    <Employee/>
 
    </>
   );
