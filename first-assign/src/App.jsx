@@ -14,6 +14,7 @@ import TxtChng from "./MyComponents/TxtChng";
 import Realtimettxt from "./MyComponents/Realtimetxt";
 import Msg from "./MyComponents/Msg";
 import Loginpage from "./MyComponents/Loginpage";
+import Fruitswithcss from "./MyComponents/Fruitswithcss";
 import "./App.css"
 function App() {
   return (
@@ -27,13 +28,14 @@ function App() {
     <User/>
     <Access/>
     <Result/>
-    <Btn/> */}
-    {/* <StudentsList/>
+    <Btn/>
+    <StudentsList/>
     <Products/>
     <TxtChng/>
     <Realtimettxt/>
-    <Msg/> */}
-    <Loginpage/>
+    <Msg/>
+    <Loginpage/> */}
+    <Fruitswithcss/>
 
    </>
   );
