@@ -1,43 +1,11 @@
-import Header from "./MyComponents/Header";
-import Clcom from "./MyComponents/Clcom";
-import Student from "./MyComponents/Student"; 
-import Marksfromuser from "./MyComponents/Marksfromuser";
-import Evod from "./MyComponents/Evod";
-import Age from "./MyComponents/Age";
-import User from "./MyComponents/User";
-import Access from "./MyComponents/Access";
-import Result from "./MyComponents/Result";
-import Btn from "./MyComponents/Btn";
-import StudentsList from "./MyComponents/StudentsList"
-import Products from "./MyComponents/Products";
-import TxtChng from "./MyComponents/TxtChng";
-import Realtimettxt from "./MyComponents/Realtimetxt";
-import Msg from "./MyComponents/Msg";
-import Loginpage from "./MyComponents/Loginpage";
-import Fruitswithcss from "./MyComponents/Fruitswithcss";
-import "./App.css"
-import Employee from "./MyComponents/Employee";
+import Parent from "./NewComponents.jsx/Parent";
+import Btn from "./NewComponents.jsx/Btn";
 function App() {
   return (
    <>
-    {/* <Header />
-    <Clcom />
-    <Student />
-    <Marksfromuser />
-    <Evod />
-    <Age/>
-    <User/>
-    <Access/>
-    <Result/>
+   
+    <Parent/>
     <Btn/>
-    <StudentsList/>
-    <Products/>
-    <TxtChng/>
-    <Realtimettxt/>
-    <Msg/>
-    <Loginpage/> */}
-    <Fruitswithcss/>
-    <Employee/>
 
    </>
   );

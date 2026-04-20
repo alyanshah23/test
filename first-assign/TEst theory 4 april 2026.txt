@@ -1,0 +1,168 @@
+Question 1
+answer: React is a java script library.it is component based, it increases the speed
+
+Question 2
+Answer: react is a single page application  renders data without refreshing the page and it is faster than JS.
+
+Question 3
+Answer: in spa code is used again and there is component based system 
+we only use reference data renders without refreshing the page 
+
+Question 4
+Answer: 
+ SPA                        MPA
+FASTER                     SLOWER
+NO REFRESH               SAME CODE WRITTEN AGAIN AND AGAIN  
+COMPONENT BASED 
+
+Question 5
+Answer: virtual Dom is the virtual body of real Dom 
+same as DOM only used virtually 
+
+Question 6
+Answer: in real DOM code is written 
+in virtual DOM only concepts and virtual body of Dom is used so it improves the performance
+
+Question 7
+Answer: renders data on any updation in code 
+
+Question 8
+Answer: mixture of html and JS
+
+
+section 2
+
+Question 1
+Answer: re useable block of code 
+
+
+Question 2
+Answer:
+class                       function
+slower                       faster
+complex code                simple code 
+uses render                 only return
+uses this                      
+
+
+Question 3
+Answer:  simple code , works like an automatic car, faster ,readable code 
+
+
+Question 4
+Answer: just giving reference of component file again and again 
+
+
+
+Question 5
+Answer: index.jsx 
+            |
+          app.jsx giving refrence of app.jsx in index.html
+             |      for custom components create folder in src example (mycomponents)
+             |      make a file example 
+             |
+          list.jsx    import it in app.jsx 
+
+ 
+
+
+Question 6
+Answer: without return nothing will be returned  to UI (user)
+
+Question 7
+Answer: yes create multiple elements like(navbar,footer,about page) 
+importing them in app.jsx
+
+
+
+
+section 3 
+Question 1
+Answer: transferring data from parent to child
+
+Question 2
+Answer: importing child component in parent component
+giving data to specific element
+giving "props" reference in child component 
+
+
+Question 3
+Answer: props are known as  read only 
+
+Question 4
+Answer: updating , memory ,condition  of a specific element is called state 
+
+
+Question 5
+Answer: props            state
+       read only        updates UI
+
+
+Question 9  
+Answer: props when there is hard code 
+state for soft code 
+
+
+section 4
+
+Question 1 , 2 
+Answer: updates ui 
+       const [ count,setcount] = usestate()
+
+
+
+
+Question 1,2,
+Answer:  shows effect or side effect of any action 
+         any action is done  use effect runs 
+
+Question 1,2
+Answer: gives reference 
+        usestaete updates the UI directly although useref is uessd fo giving  refrence
+
+
+section 5
+Question 1,2,4,5
+Answer: data renders on given condition,Show UI based on condition
+        writing condition above return
+         ternary operater , if else , switch 
+        
+
+
+
+section 8
+1. b
+2. b
+3. b
+4. b
+5. b
+6. b
+7. b
+8. b
+9. b
+10. c
+11. c
+12. a
+13. 
+14. b
+15. b
+   
+
+
+section 9 
+ 1. 2
+ 2. 2
+ 3. welcome
+ 4.1
+ 5.0
+ 6. sara
+ 7. A  B   C
+ 8. white  
+
+
+         
+         
+        
+               
+
+
